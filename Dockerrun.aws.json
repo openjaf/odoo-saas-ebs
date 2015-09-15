@@ -3,16 +3,16 @@
   "volumes": [],
   "containerDefinitions": [
     {
-      "name": "cenitodoo",
+      "name": "ceniterp-info",
       "image": "cenitsaas/cenitodoo",
       "environment": [
         {
           "name": "MAIN_DOMAIN",
-          "value": "cenitodoo.com"
+          "value": "www.ceniterp.info"
         },
         {
           "name": "SERVER_SUBDOMAIN",
-          "value": "server.cenitodoo.com"
+          "value": "server.ceniterp.info"
         },
         {
           "name": "CUSTOM_MODULES",
